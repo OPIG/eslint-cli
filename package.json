@@ -28,8 +28,14 @@
     "typescript": "^5.3.3"
   },
   "lint-staged": {
-    "*.{js,jsx,ts,tsx}": [
-      "eslint --fix"
+    "linters": {
+      "*.{js,jsx,ts,tsx}": [
+        "eslint --fix"
+      ]
+    },
+    "ignore": [
+      "dist",
+      "node_modules"
     ]
   },
   "husky": {
