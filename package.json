@@ -27,6 +27,11 @@
     "react-hooks": "^1.0.1",
     "typescript": "^5.3.3"
   },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx}": [
+      "eslint --fix"
+    ]
+  },
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged"

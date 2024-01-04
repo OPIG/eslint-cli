@@ -19,7 +19,7 @@ module.exports = {
       },
     ],
     // 声明的 state 必须被使用
-    'react/no-unused-state': 'warn',
+    'react/no-unused-state': 'error',
     // 使用 this.state 获取状态，用 setState 改变状态
     'react/no-direct-mutation-state': 'off',
     // 不要在 setState 中使用 this.state
@@ -40,7 +40,7 @@ module.exports = {
     // @link https://reactjs.org/docs/hooks-rules.html
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'warn',
-    // 'no-console': 'error',
+    'no-console': 'error',
   },
   settings: {
     'import/resolver': {
