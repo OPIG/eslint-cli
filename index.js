@@ -1,3 +1,4 @@
 var name= 'test';
 
-console.log('-----'); 
+
+console.log(name, '-----'); 
