@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "husky install",
-    "lint": "eslint ./"
+    "lint": "eslint ./",
+    "lint-staged": "lint-staged"
   },
   "keywords": [],
   "author": "",
@@ -36,14 +37,10 @@
     }
   },
   "lint-staged": {
-    "linters": {
       "*.{js,jsx,ts,tsx}": [
         "eslint"
-      ]
-    },
-    "ignore": [
-      "dist",
-      "node_modules"
-    ]
+      ],
+    "!**/node_modules/**": "true",
+    "!**/dist/**": "true"
   }
 }
