@@ -1,2 +1,4 @@
-const name= 'test';
+var name= 'test';
+
+
 console.log('-----'); 
