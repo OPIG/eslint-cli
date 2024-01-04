@@ -28,7 +28,7 @@ module.exports = {
         'react'
     ],
     'rules': {
-      'no-console': 'error',
+      'no-console': 'warn',
       'semi': 'error',
       'quotes': ['error', 'single'],
       'no-unused-vars': 'error',
