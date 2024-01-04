@@ -1,3 +1,4 @@
 {
-  "extends": "./configs/react"
+  "root": true,
+  "extends": ["./configs/react"]
 }
